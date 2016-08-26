@@ -78,7 +78,7 @@ Headers and development files for %{name}.
 
 %build
 autoreconf -fiv
-%configure --enable-debug
+%configure --enable-debug --disable-static
 %make
 
 %install
